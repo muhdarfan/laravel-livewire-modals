@@ -17,6 +17,6 @@ class LaravelLivewireModalsProvider extends ServiceProvider
             ['laravel-livewire-modals', 'laravel-livewire-modals:views']
         );
 
-        Livewire::component('modals', Modals::class);
+        Livewire::component('livewire-bootstrap-modal', Modals::class);
     }
 }
